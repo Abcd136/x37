@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InviZible Pro Beta - 应用详情</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+        }
+
+        .header {
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #fff;
+        }
+
+        .back-button {
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .header-right {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .app-info {
+            padding: 20px;
+            background: #fff;
+            display: flex;
+            gap: 15px;
+        }
+
+        .app-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 15px;
+        }
+
+        .app-details {
+            flex: 1;
+        }
+
+        .app-name {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .developer {
+            color: #1a73e8;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .version {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background: #fff;
+            margin-top: 1px;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .stat-label {
+            font-size: 12px;
+            color: #666;
+        }
+
+        .action-buttons {
+            display: flex;
+            gap: 15px;
+            padding: 15px;
+            background: #fff;
+        }
+
+        .version-btn, .download-btn {
+            flex: 1;
+            padding: 12px;
+            border-radius: 25px;
+            border: 1px solid #ddd;
+            font-size: 16px;
+            text-align: center;
+        }
+
+        .version-btn {
+            background: #fff;
+            color: #333;
+        }
+
+        .download-btn {
+            background: #1a73e8;
+            color: #fff;
+            border: none;
+        }
+
+        .section {
+            margin-top: 10px;
+            background: #fff;
+            padding: 15px;
+        }
+
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .screenshots {
+            display: flex;
+            gap: 10px;
+            overflow-x: auto;
+            padding-bottom: 10px;
+        }
+
+        .screenshot {
+            width: 200px;
+            height: 400px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        .about {
+            font-size: 14px;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .tags {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .tag {
+            padding: 5px 15px;
+            border-radius: 15px;
+            background: #f5f5f5;
+            font-size: 14px;
+        }
+
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            background: #fff;
+            border-top: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <span class="back-button"></span>
+        <div class="header-right">
+        </div>
+    </div>
+
+    <div class="app-info">
+        <img src="https://files.catbox.moe/vqvcka.png" alt="InviZible Pro Beta" class="app-icon">
+        <div class="app-details">
+            <div class="app-name">InviZible Pro Beta</div>
+            <div class="developer"></div>
+            <div class="version">2.3.3・最新版本</div>
+        </div>
+    </div>
+
+<div class="app-list">
+        <div class="app-item">
+            
+            <div class="app-info">
+                
+                
+                <div class="rating">3.8 ★ <span class="app-size"></span></div>
+        <div class="stat-item">
+            <div class="stat-value">36.32MB</div>
+            <div class="stat-label">大小</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-value">ALL</div>
+            <div class="stat-label">安卓</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-value">官方版</div>
+            <div class="stat-label">渠道</div>
+        </div>
+    </div>
+
+    <div class="action-buttons">
+        <button class="version-btn">
+            <a href="https://share.feijipan.com/s/8hDAgCvQ" style="color: black; text-decoration: none;">版本</a>
+            </button>
+        <button class="download-btn">
+            <a href="https://invizible.net/" style="color: white; text-decoration: none;">官网</a>
+            </button>
+    </div>
+
+    <div class="section">
+        <div class="section-header">
+            <div class="section-title">新变化</div>
+            <span></span>
+        </div>
+        <div>
+<p>保护隐私，防止跟踪，并提供对受限和隐藏的在线内容的访问
+<p>.
+<p>InviZible Pro结合了Tor、  DNSCrypt和 Purple I2P 的优势，  为在线隐私、安全和匿名性提供了全面的解决方案。
+<p>.
+<p>.
+<p>Tor：
+<p>隐藏用户的身份和位置
+<p>防御流量分析和审查
+<p>保护在线活动免受监视
+<p>通过多个服务器路由流量
+<p>提供对“洋葱”网站（暗网）的访问
+<p>开源
+<p>.
+<p>DNS加密：
+<p>通过加密保护 DNS 流量
+<p>使用加密密钥验证 DNS 服务器合法性
+<p>防御基于 DNS 的攻击，例如欺骗
+<p>防止窃听和 DNS 查询记录
+<p>可以屏蔽广告 *
+<p>可以防御危险和恶意网站*
+<p>可以屏蔽“成人”网站*
+<p>开源
+<p>.
+<p>I2P：
+<p>提供匿名通讯网络
+<p>隐藏用户的身份和活动
+<p>防御监视
+<p>确保安全的数据传输
+<p>分布式自组织网络
+<p>提供对“i2p”网站（深层网络）的访问
+<p>开源
+</div>
+    </div>
+
+    <div class="section">
+        <div class="section-header">
+            <div class="section-title">应用截图</div>
+        </div>
+        <div class="screenshots">
+            <img src="https://files.catbox.moe/zy3x2z.jpg" alt="截图1" class="screenshot">
+            <img src="https://files.catbox.moe/34jfbn.jpg" alt="截图2" class="screenshot">
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="section-header">
+            <div class="section-title">特点</div>
+            <span></span>
+        </div>
+        <div class="about">
+<p>隐私保护：保护您的在线活动。
+<p>匿名浏览：隐藏您的身份。
+<p>安全 DNS 加密：保护您的 DNS 查询。
+<p>匿名网络集成：利用 Tor、DNSCrypt 和 Purple I2P。
+<p>防火墙：防止未经授权的访问。
+<p>访问受限内容：解除对被屏蔽网站的阻止。
+<p>反跟踪措施：防止跟踪您的在线行为。
+<p>隐藏网络访问：连接到“洋葱”和“i2p”网站（暗网）。
+<p>开源：透明且由社区驱动。
+<p>用户友好型设计：简单、直观的界面。
+        </div>
+        <div class="tags">
+            <span class="tag">实用</span>
+            <span class="tag">工具</span>
+        </div>
+    </div>
+<script src="https://utteranc.es/client.js"
+        repo="Abcd136/x"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+  </script>
+</body>
+</html>
